@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hey%2C+I%27m+Jaya+Prakash+%F0%9F%91%8B;AWS+Certified+Cloud+Practitioner+%E2%98%81%EF%B8%8F;Terraform+%2B+Ansible+%2B+S3+Remote+Backend;CI%2FCD+Pipelines+%7C+Docker+%2B+GitHub+Actions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hey%2C+I%27m+Jaya+Prakash+%F0%9F%91%8B;AWS+Certified+Cloud+Practitioner+%E2%98%81%EF%B8%8F;End-to-End+Infrastructure+CI%2FCD+Pipelines;Terraform+%2B+Ansible+%2B+GitHub+Actions+%2B+Docker;Junior+DevOps+%2F+Cloud+Engineer" alt="Typing SVG" />
   </a>
 </div>
 
@@ -20,8 +20,8 @@ class DevOpsEngineer:
         self.role        = "Junior DevOps / Cloud Engineer"
 
         self.stack = [
-            "Terraform", "Ansible", "Docker",
-            "GitHub Actions", "AWS", "Linux"
+            "Terraform", "Ansible", "GitHub Actions",
+            "Docker", "AWS", "Linux"
         ]
 
         self.currently_learning = [
@@ -30,9 +30,9 @@ class DevOpsEngineer:
             "Prometheus + Grafana Monitoring"
         ]
 
-        self.fun_fact = (
-            "I destroyed and recreated the same "
-            "AWS VPC 20+ times — on purpose 😄"
+        self.recent_win = (
+            "Built a Git push → live app pipeline: "
+            "GitHub Actions → Terraform → AWS → Ansible → Docker"
         )
 
     def motto(self):
@@ -43,6 +43,14 @@ print(me.motto())
 ```
 
 <br clear="right"/>
+
+---
+
+## 🏆 Recent Achievement
+
+> **Completed an End-to-End Infrastructure Automation Pipeline** using Terraform, Ansible, GitHub Actions, Docker, and AWS.
+>
+> A single `git push` triggers the full workflow: GitHub Actions runs Terraform to provision AWS infrastructure (VPC, EC2, S3 Remote Backend), updates the Ansible inventory, executes Ansible playbooks to configure the server, and deploys the application with Docker Compose — fully automated, zero manual steps.
 
 ---
 
@@ -58,17 +66,20 @@ print(me.motto())
 ![Route53](https://img.shields.io/badge/Route%2053-8C4FFF?style=flat-square&logo=amazonroute53&logoColor=white)
 ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 
-**⚙️ Infrastructure as Code & Configuration**
+**⚙️ Infrastructure as Code & Configuration Management**
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-**🐳 Containers & CI/CD**
+**🔄 CI/CD & Automation**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**🐳 Containers**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Docker Hub](https://img.shields.io/badge/Docker%20Hub-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 **🖥️ OS & Networking**
 
@@ -82,14 +93,14 @@ print(me.motto())
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
-**🔧 Version Control & Tools**
+**🔧 Version Control**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
-## 🏅 Certification
+## 🏅 Certifications
 
 <div align="center">
 
@@ -123,38 +134,36 @@ print(me.motto())
 
 ## 🚀 Featured Projects
 
-### 🏗️ Infrastructure Automation — Terraform + Ansible + S3 Remote Backend
+### 🏗️ End-to-End Infrastructure Automation Pipeline ⭐ Flagship Project
 
 > ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 > ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+> ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 > ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 > ![S3](https://img.shields.io/badge/S3%20Remote%20Backend-569A31?style=flat-square&logo=amazons3&logoColor=white)
 > ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-> ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 **[🔗 View Repository](https://github.com/au422621106016/Terraform-and-Ansible-infrastructure-automation-project)**
 
-End-to-end infrastructure automation project that provisions AWS infrastructure with Terraform, manages remote state via S3, and configures EC2 servers automatically using Ansible — eliminating all manual deployment steps.
+A complete Infrastructure CI/CD pipeline where a `git push` triggers GitHub Actions to run Terraform, provision AWS infrastructure, configure EC2 via Ansible, and deploy the application with Docker Compose — with zero manual steps from commit to live application.
 
-**☁️ Infrastructure (Terraform)**
-
-- Provisioned complete AWS network stack: VPC, Public Subnet, Internet Gateway, Route Table, Security Group, EC2 Instance, and Elastic IP
-- Implemented **Terraform Remote Backend using Amazon S3** — migrated `terraform.tfstate` from local to centralized S3 storage
-- Enabled state persistence beyond local machine lifecycle and verified remote backend initialization and state migration
-- Structured all infrastructure code in GitHub as single source of truth for repeatable destroy-and-recreate workflows
-
-**⚙️ Configuration Management (Ansible)**
-
-- Automated EC2 server configuration via Ansible playbooks: Docker installation, service management, GitHub repo cloning, environment variable setup, and Docker Compose deployment
-- Configured Ansible inventory for dynamic EC2 targeting using Elastic IP reuse across infrastructure recreations
-
-**🧠 Key Outcomes**
+**Pipeline Architecture**
 
 ```
-✅ Terraform provisioning  vs  Ansible configuration management — clear separation of concerns
-✅ S3 Remote Backend       →   centralized state for team collaboration
-✅ Elastic IP reuse        →   infrastructure recovery without DNS changes
-✅ IaC best practices      →   repeatable, idempotent, version-controlled deployments
+Git Push → GitHub Actions → Terraform (init/validate/plan/apply)
+       → AWS Infrastructure (VPC · EC2 · Elastic IP · S3 Backend)
+       → Ansible Playbook (Docker · Repo Clone · Docker Compose)
+       → Application Live
+```
+
+**Key Engineering Decisions**
+
+```
+✅ Terraform Remote Backend (S3)   → centralized state, team-safe, no local drift
+✅ Elastic IP reuse                → stable addressing across destroy/recreate cycles
+✅ Terraform + Ansible separation  → provisioning vs. configuration — clear concerns
+✅ GitHub Actions orchestration    → no CI server required, secrets-managed credentials
+✅ Idempotent Ansible playbooks    → safe to re-run at any point in the pipeline
 ```
 
 ---
@@ -171,21 +180,9 @@ End-to-end infrastructure automation project that provisions AWS infrastructure 
 **[🔗 View Repository](https://github.com/au422621106016/devops-task-platform)**
 
 - Designed a **4-service Docker Compose architecture** — Flask backend, MySQL database, Nginx reverse proxy, and frontend — with inter-service networking and volume-backed data persistence
-- Built a **GitHub Actions CI/CD pipeline** that builds, tags, and pushes Docker images to Docker Hub, then deploys to AWS EC2 via SSH on every push with zero manual intervention
-- Configured Nginx as a reverse proxy routing HTTP traffic to Flask, enforcing clean service boundaries and managing port exposure
-- Implemented Docker image versioning on Docker Hub for repeatable, rollback-safe deployments
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-| Degree | Institution | Year | Score |
-|--------|------------|------|-------|
-| B.E. Electronics & Communication Engineering | University College of Engineering, Panruti | 2021 – 2025 | CGPA: 7.4 |
-
-</div>
+- Built a **GitHub Actions CI/CD pipeline** that builds, tags, and pushes versioned Docker images to Docker Hub, then deploys to AWS EC2 via SSH on every push — achieving zero-touch continuous deployment
+- Configured Nginx as a reverse proxy to route external HTTP traffic to the Flask application container, enforcing security boundaries and clean service isolation
+- Implemented Docker image versioning on Docker Hub to support repeatable, rollback-safe deployments across environments
 
 ---
 
@@ -200,15 +197,10 @@ End-to-end infrastructure automation project that provisions AWS infrastructure 
 🏗️ Terraform Advanced
    ├── ✅ Remote Backend   (completed)
    ├── ✅ State Management (completed)
-   ├── ➡️ Modules          (next)
+   ├── ➡️ Modules          (in progress)
    └── Workspaces
 
-⚙️ CI/CD Automation
-   ├── GitHub Actions
-   ├── Deployment Pipelines
-   └── Infrastructure Automation
-
-📡 Monitoring
+📡 Monitoring & Observability
    ├── Prometheus
    ├── Grafana
    └── Alertmanager
